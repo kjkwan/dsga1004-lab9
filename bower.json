@@ -1,10 +1,10 @@
 {
-  "name": "dsga1004lab9",
+  "name": "kkwan",
   "homepage": "https://github.com/kjkwan/dsga1004-lab9",
   "authors": [
     "kk3175 <kristen.kwan@nyu.edu>"
   ],
-  "description": "lab9",
+  "description": "dsga1004 lab 9",
   "main": "main",
   "license": "MIT",
   "private": true,
@@ -18,5 +18,8 @@
   "dependencies": {
     "jQuery": "^2.2.3",
     "d3": "^3.5.16"
-  }
+  },
+  "keywords": [
+    "keywords"
+  ]
 }
