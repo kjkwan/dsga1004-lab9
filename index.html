@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+  <title>My Website</title>
+  <script src="bower_components/jQuery/dist/jquery.min.js"></script>
+  <script src="bower_components/d3/d3.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+<h4 id="hovered">Car Name</h4>
+<script src="main.js"></script>
+
+<div class="ui">
+    <div>
+        <label>X:</label>
+        <select name="x_axis" id="x_axis" >
+            <option value ="displacement">displacement</option>
+            <option value ="cylinders">cylinders</option>
+            <option value ="mpg">mpg</option>
+            <option value ="horsepower">horsepower</option>
+            <option value ="weight">weight</option>
+            <option value ="acceleration">acceleration</option>
+        </select>
+        <label>Y:</label>
+        <select name="y_axis" id="y_axis">
+            <option value ="mpg">mpg</option>
+            <option value ="cylinders">cylinders</option>
+            <option value ="displacement">displacement</option>
+            <option value ="horsepower">horsepower</option>
+            <option value ="weight">weight</option>
+            <option value ="acceleration">acceleration</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <input id="mpg-min" type="text" value="0" size="10" >
+        <input id="mpg-max" type="text" value="30" size="10" >
+        <button name='button' id="update">Query MPG</button>
+    </div>
+
+
+</div>
+
+
+<br>
+</body>
